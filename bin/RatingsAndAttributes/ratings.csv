@@ -1,0 +1,10 @@
+class=attributes
+rating_name,convert_to,conversion_to_percent
+string, string, double
+haste,percent, 32.79
+expertise,percent, 32.79
+crit,percent, 45.91
+hit,percent, 32.79
+armorPenetration, percent, 14.0
+attackPower, multiplier, 1.0
+spellPower, multiplier, 1500
