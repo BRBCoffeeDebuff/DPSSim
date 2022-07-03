@@ -1,6 +1,6 @@
-package main.simsource;
+package Buffs;
 
-public class buff {
+public class buff implements importableClass{
     private String buffName;
     private String buffType; // optioins for this will be multiplicative or additive
     private String ratingEffect; // options for this will be none, all, or a specific rating name such as attack power, hit, crit
@@ -8,6 +8,9 @@ public class buff {
     private double buffValue;
     private double duration;
 
+    // TODO add model for data importation from a file
+    public void importCSVMembers(String[] dataToImport){}
+    
     public void createBuff(String bName, String btype, boolean affectsAttribute, String attributeOrRattingEffectedName, double bvalue, double buffDuration){
         this.buffName = bName;
         this.buffType = btype;
